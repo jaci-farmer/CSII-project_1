@@ -1,8 +1,10 @@
 from gui import *
 
-
 def main():
-
+    """
+    Method setting size of window and running the application
+    :return:
+    """
     window = Tk()
     window.title("Lab 10")
     window.geometry("250x180")
