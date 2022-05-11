@@ -6,8 +6,8 @@ def main():
     :return:
     """
     window = Tk()
-    window.title("Lab 10")
-    window.geometry("250x180")
+    window.title("Student Registration")
+    window.geometry("400x300")
     window.resizable(False, False)
     widgets = GUI(window)
     window.mainloop()
